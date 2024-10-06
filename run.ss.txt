@@ -1,0 +1,3 @@
+cd /Users/thuriayaa/Downloads/Automation_23/OpenCart
+
+mvn test

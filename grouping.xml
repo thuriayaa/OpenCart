@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> 
+<suite name="Suite">
+	
+	 
+	<!-- extent report manager class will be excecute here via a listeners-->
+		
+	<listeners>
+			
+		<listener class-name="utilities.ExtendReportManager" />
+			
+	</listeners>
+	
+	
+	
+  <test name="Test">
+	  
+	  
+	  <parameter name ="OS" value ="Windows" />
+	  
+	  <parameter name ="browser" value ="chrome" />
+	   
+	  
+	   
+	  
+	  <groups>
+		  
+		  <run> 
+			  
+		 <include name="Master" />
+		  
+		 <include name="Sanity" /> <!-- if you exclude then take off sanity group name from the beforeclass and afterclass tests also  -->
+		  
+		 <include name="Regression" />
+		  
+		  
+		  </run>
+		  
+	  </groups>
+	  
+	  
+	   
+	  
+    <classes>
+		
+      <class name="testCases.AccountRegistrationTest"/>  
+      
+      <class name="testCases.LoginTest"/>  
+      
+      <!--  <class name="testCases.LoginDDT"/> -->
+
+      
+    </classes>
+    
+    
+    
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

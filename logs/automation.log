@@ -1,0 +1,14 @@
+2024-10-06 10:59:52 INFO  AccountRegistrationTest:107 - **************** Launching Application ****************
+2024-10-06 10:59:56 INFO  AccountRegistrationTest:25 - **************** Starting the Account Registration Test ****************
+2024-10-06 10:59:56 INFO  AccountRegistrationTest:39 - **************** clicking on my account ****************
+2024-10-06 10:59:57 INFO  AccountRegistrationTest:47 - **************** clicked on registration link ****************
+2024-10-06 10:59:57 INFO  AccountRegistrationTest:53 - **************** providing customer info to sign up account ****************
+2024-10-06 11:00:00 INFO  AccountRegistrationTest:78 - **************** validating expected message ****************
+2024-10-06 11:00:00 INFO  AccountRegistrationTest:86 - ****************  account registrtion passed ****************
+2024-10-06 11:00:00 INFO  AccountRegistrationTest:95 - ************** Finished account registration *************
+2024-10-06 11:00:03 INFO  LoginTest:107 - **************** Launching Application ****************
+2024-10-06 11:00:07 INFO  LoginTest:19 - ~~~~~~~~~~~~~~~~ Starting Login Test ~~~~~~~~~~~~~~~~
+2024-10-06 11:00:08 INFO  LoginTest:41 - ----- clicked on login link under my account ---------
+2024-10-06 11:00:08 INFO  LoginTest:50 - ----- adding login credentials ---------
+2024-10-06 11:00:09 INFO  LoginTest:60 - ----- clicked on login button to access my account ---------
+2024-10-06 11:00:09 INFO  LoginTest:86 - ----- login test completed. Alhamdulillah ---------
